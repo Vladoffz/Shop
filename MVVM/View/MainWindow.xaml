@@ -1,0 +1,57 @@
+﻿<Window x:Class="MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM" xmlns:local1="clr-namespace:MVVM.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="560.625" Width="683.624">
+    <Window.DataContext>
+        <local1:Base/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" FlowDirection="LeftToRight">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Vertical">
+                <Label Margin="59,0,0,0">Transport</Label>
+                <ComboBox  HorizontalContentAlignment="Center" x:Name="TransportList" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="158"
+                          ItemsSource="{Binding Path=Transports}" SelectedItem="{Binding ViewModel.Observable.SelectedTransport, Source=ViewModel.Observable.Transports}" Margin="17,0,0,0">
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Label Margin="49,0,0,0">Items</Label>
+                <ComboBox   x:Name="GoodsList" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="174"
+                  ItemsSource="{Binding Path=Goods}" SelectedItem="{Binding ViewModel.Observable.SelectedGood, Source=ViewModel.Observable.Goods}">
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Orientation="Vertical">
+                <Label Margin="33,0,0,0">Destinations</Label>
+                <ComboBox  HorizontalContentAlignment="Center" x:Name="DestinationList" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="150"
+                  ItemsSource="{Binding Path=Destinations}" SelectedItem="{Binding ViewModel.Observable.SelectedDestination, Source=ViewModel.Observable.Destinations}" RenderTransformOrigin="0.5,0.5">
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="0,0,0,170" Grid.RowSpan="2">
+            <Label HorizontalAlignment="Center" Content="Input good name:"  />
+            <TextBox  x:Name="NameTextBox" Text="{Binding GoodName, UpdateSourceTrigger=PropertyChanged}" />
+            <Label HorizontalAlignment="Center" Content="Input height of good:" />
+            <TextBox x:Name="HeightTextBox" Text="{Binding GoodHeight, UpdateSourceTrigger=PropertyChanged}" />
+            <Label HorizontalAlignment="Center" Content="Input weight of good:"/>
+            <TextBox   x:Name="WeightTextBox" Text="{Binding GoodWeight, UpdateSourceTrigger=PropertyChanged}" />
+            <Label HorizontalAlignment="Center" Content="Input width of good:" />
+            <TextBox x:Name="WidthTextBox" Text="{Binding GoodWidth, UpdateSourceTrigger=PropertyChanged}" Height="20" />
+        </StackPanel>
+        <Grid Grid.Row="2" Margin="0,20,0,0">
+            <Button Content="Add order" Height="53"  Command="{Binding AddOrderCommand}" Width="300" Margin="0 10 0 0" Click="AddOrder_Click" HorizontalAlignment ="Center"/>
+        </Grid>
+    </Grid>
+</Window>

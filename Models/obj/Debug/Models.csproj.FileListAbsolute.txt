@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+C:\Users\CSharpSila\Desktop\proj\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\CSharpSila\Desktop\proj\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\Desktop\proj\Models\bin\Debug\Models.dll
+C:\Users\CSharpSila\Desktop\proj\Models\bin\Debug\Models.pdb
+C:\Users\CSharpSila\Desktop\proj\Models\obj\Debug\Models.dll
+C:\Users\CSharpSila\Desktop\proj\Models\obj\Debug\Models.pdb
+=======
+C:\Users\vladg\Desktop\MVVM-master\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\vladg\Desktop\MVVM-master\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+>>>>>>> a985b8a3a93d9dda90344ad4f7786e72105c9a51

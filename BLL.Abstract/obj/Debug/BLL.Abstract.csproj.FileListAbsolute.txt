@@ -1,0 +1,16 @@
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\BLL.Abstract.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\BLL.Abstract.pdb
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\DAL.Abstract.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\Entities.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\Models.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\EntityFramework.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\DAL.Abstract.pdb
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\Entities.pdb
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\Entities.dll.config
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\Models.pdb
+C:\Users\vladg\Desktop\proj\BLL.Abstract\bin\Debug\EntityFramework.xml
+C:\Users\vladg\Desktop\proj\BLL.Abstract\obj\Debug\BLL.Abstract.csprojAssemblyReference.cache
+C:\Users\vladg\Desktop\proj\BLL.Abstract\obj\Debug\BLL.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\vladg\Desktop\proj\BLL.Abstract\obj\Debug\BLL.Abstract.csproj.CopyComplete
+C:\Users\vladg\Desktop\proj\BLL.Abstract\obj\Debug\BLL.Abstract.dll
+C:\Users\vladg\Desktop\proj\BLL.Abstract\obj\Debug\BLL.Abstract.pdb

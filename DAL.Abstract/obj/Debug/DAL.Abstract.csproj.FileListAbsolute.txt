@@ -1,0 +1,12 @@
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\DAL.Abstract.dll
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\DAL.Abstract.pdb
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\Entities.dll
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\EntityFramework.dll
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\Entities.pdb
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\Entities.dll.config
+C:\Users\vladg\Desktop\proj\DAL.Abstract\bin\Debug\EntityFramework.xml
+C:\Users\vladg\Desktop\proj\DAL.Abstract\obj\Debug\DAL.Abstract.csprojAssemblyReference.cache
+C:\Users\vladg\Desktop\proj\DAL.Abstract\obj\Debug\DAL.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\vladg\Desktop\proj\DAL.Abstract\obj\Debug\DAL.Abstract.csproj.CopyComplete
+C:\Users\vladg\Desktop\proj\DAL.Abstract\obj\Debug\DAL.Abstract.dll
+C:\Users\vladg\Desktop\proj\DAL.Abstract\obj\Debug\DAL.Abstract.pdb
